@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    
+    <title>Mi primer sitio web</title> 
+</head>
+<body>
+
+    <div>
+        <p>Este es un párrafo dentro del div</p>
+        <span>Este es un span dentro de un div</span>
+    </div>
+
+    <h1 class="titulos">Mi primer sitio web en código</h1> 
+    <p>Este es un párrafo de ejemplo</p>
+
+    <h2 class="titulos">Subtitulo</h2>
+    
+    <img src="" alt="">
+
+    <!-- Esta lista ordenada es el paso a paso de la forma de cocinar nuestra cena -->
+
+    <ol>
+        <li>Batir</li>
+        <li>Cocinar</li>
+        <li>Comer</li>
+    </ol>
+
+    <ul>
+        <li>Agua</li>
+        <li>Carne</li>
+        <li>Verduras</li>
+    </ul>
+    
+    <!-- Enlace absoluto -->
+    <a href="https://google.com">Prensa</a>
+
+    <!-- Enlaces relativos -->
+    <a href="servicios.html">Ver servicios</a>
+
+    <!-- Enlace interno | El id se crea con el simbolo # seguido del nombre de la sección -->
+    <a href="#testimonios">Testimonios</a>
+
+
+    <section id="testimonios">
+        <p>Testimonios</p>
+    </section>
+
+    <!-- videos -->
+    <video src="video.mp4" controls></video>
+
+    <!-- audio -->
+    <audio src="mensaje.mp3" controls></audio>
+
+    <!-- Tablas | Para organizarnos o para armar emails -->
+
+    <table> <!-- Contenedoras de la tabla -->
+        <tr>
+            <th>Nombre</th><!-- Los encabezados -->
+            <th>Ciudad</th>
+            <th>Edad</th>
+        </tr>
+        <tr> <!-- Definen una filas --> 
+            <td>Niko</td> <!-- Las celdas -->
+            <td>Buenos Aires</td>
+            <td>34</td>
+        </tr>
+    </table>
+
+    <!-- Formularios -->
+    <form action="/submit" method="post"> <!-- Etiqueta contenedora -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id=" mensaje"></textarea>
+
+        <label for="genero">Género:</label>
+        <input type="radio" name="" id="">
+        <label for="">Hombre</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Mujer</label>
+
+        <input type="radio" name="" id="">
+        <label for="">Prefiero no decirlo</label>
+
+        <label for="suscribe">Suscribirse:</label>
+        <input type="checkbox" name="suscribe" id="suscribe">
+
+        <label for="pais">País:</label>
+        <select name="" id="">
+            <option value="">Brasil</option>
+            <option value="">Argentina</option>
+            <option value="">Uruguay</option>
+        </select>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+
+
+
+</body>
+</html>
